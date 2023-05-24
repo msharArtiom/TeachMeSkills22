@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="Bug fix lesson 3 task 2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework4/Operators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" afterDir="false" />
+    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="Using Control Structures">
+      <change afterPath="$PROJECT_DIR$/src/homework4/Cycles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +44,13 @@
     "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Operators">
-    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.BodyMassIndex" />
+  <component name="RunManager" selected="Application.Cycles">
+    <configuration name="Cycles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Cycles" />
       <module name="TeachMeSkills22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cycles" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.Symbol" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Human" />
-        <item itemvalue="Application.BodyMassIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684856315153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Using Control Structures">
+      <created>1684930840636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930840637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first homework" />
     <MESSAGE value="Bug fix lesson 3 task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix lesson 3 task 2" />
+    <MESSAGE value="Using Control Structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Control Structures" />
   </component>
 </project>
