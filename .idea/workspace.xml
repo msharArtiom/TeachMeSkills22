@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="Using Control Structures">
-      <change afterPath="$PROJECT_DIR$/src/homework4/Cycles.java" afterDir="false" />
+    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="Using cycles">
+      <change afterPath="$PROJECT_DIR$/src/homework4/AdditionalTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +44,9 @@
     "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Cycles">
-    <configuration name="Cycles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Cycles" />
+  <component name="RunManager" selected="Application.AdditionalTask">
+    <configuration name="AdditionalTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.AdditionalTask" />
       <module name="TeachMeSkills22" />
       <extension name="coverage">
         <pattern>
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.Human" />
+    <configuration name="Cycles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Cycles" />
       <module name="TeachMeSkills22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdditionalTask" />
         <item itemvalue="Application.Cycles" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.Symbol" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Human" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684930840637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Using cycles">
+      <created>1684934251832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684934251832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +169,7 @@
     <MESSAGE value="first homework" />
     <MESSAGE value="Bug fix lesson 3 task 2" />
     <MESSAGE value="Using Control Structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Control Structures" />
+    <MESSAGE value="Using cycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using cycles" />
   </component>
 </project>
