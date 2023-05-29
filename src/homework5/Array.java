@@ -18,7 +18,8 @@ class Array {
 
         //createTwoArray();
 
-        //createTowArrayFromEvenNumbersFirst();
+
+        createTowArrayFromEvenNumbersFirst();
 
         //System.out.print("Enter array length: ");
         //replaceOddIndex(scanner().nextInt());
@@ -103,14 +104,15 @@ class Array {
 
     public static void createTowArrayFromEvenNumbersFirst() {
 
-        int length;
-        do {
+        int length = 0;
+        boolean fag = true;
+        while (fag) {
             System.out.print("Enter length of array: ");
             length = scanner().nextInt();
             if (!(length > 4 && length < 11)) {
                 System.out.println("length does not satisfy the condition ");
-            }
-        } while (!(length > 4 && length < 11));
+            }else fag = false;
+        }
 
         int[] firstArray = createArray(length);
         System.out.println(Arrays.toString(firstArray));
