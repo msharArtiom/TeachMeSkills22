@@ -105,13 +105,13 @@ class Array {
     public static void createTowArrayFromEvenNumbersFirst() {
 
         int length = 0;
-        boolean fag = true;
-        while (fag) {
+        boolean flag = true;
+        while (flag) {
             System.out.print("Enter length of array: ");
             length = scanner().nextInt();
             if (!(length > 4 && length < 11)) {
                 System.out.println("length does not satisfy the condition ");
-            }else fag = false;
+            }else flag = false;
         }
 
         int[] firstArray = createArray(length);
