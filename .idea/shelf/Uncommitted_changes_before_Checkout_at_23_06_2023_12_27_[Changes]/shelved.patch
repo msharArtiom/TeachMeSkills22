@@ -1,0 +1,106 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"homework7\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Dentist.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Doctor.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Patient.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Surgeon.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/Therapist.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/clinic/TreatmentPlan.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/company/Accountant.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/company/Director.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/company/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/company/Post.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/company/Worker.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/figure/Circle.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/figure/Figure.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/figure/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/figure/Rectangle.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/figure/Triangle.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/phone/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/phone/Phone.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/Contract.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/Document.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/EmployeeContract.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/FinancialInvoice.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/Register.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/homework8/register/SupplyContract.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.homework8.register.Main\">\r\n    <configuration name=\"Operators\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.Operators\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"homework8.clinic.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework8.clinic.Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework8.clinic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"homework8.company.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework8.company.Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework8.company.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"homework8.figure.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework8.figure.Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework8.figure.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"homework8.register.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework8.register.Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework8.register.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.homework8.register.Main\" />\r\n        <item itemvalue=\"Application.homework8.company.Main\" />\r\n        <item itemvalue=\"Application.homework8.figure.Main\" />\r\n        <item itemvalue=\"Application.homework8.clinic.Main\" />\r\n        <item itemvalue=\"Application.Operators\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Bug fix lesson 3 task 2\">\r\n      <created>1684856315153</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684856315153</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Using Control Structures\">\r\n      <created>1684930840636</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684930840637</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Using cycles\">\r\n      <created>1684934251832</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684934251832</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <MESSAGE value=\"Bug fix lesson 3 task 2\" />\r\n    <MESSAGE value=\"Using Control Structures\" />\r\n    <MESSAGE value=\"Using cycles\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Using cycles\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,41 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="homework7">
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Dentist.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Doctor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Patient.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Surgeon.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/Therapist.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/clinic/TreatmentPlan.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/company/Accountant.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/company/Director.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/company/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/company/Post.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/company/Worker.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/figure/Circle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/figure/Figure.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/figure/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/figure/Rectangle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/figure/Triangle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/phone/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/phone/Phone.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/Contract.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/Document.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/EmployeeContract.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/FinancialInvoice.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/Register.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/homework8/register/SupplyContract.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" />
++    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="homework 8.1 and 8.2">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -78,7 +44,7 @@
+     &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.homework8.register.Main">
++  <component name="RunManager" selected="Application.homework8.figure.Main">
+     <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="homework4.Operators" />
+       <module name="TeachMeSkills22" />
+@@ -146,9 +112,9 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.homework8.figure.Main" />
+         <item itemvalue="Application.homework8.register.Main" />
+         <item itemvalue="Application.homework8.company.Main" />
+-        <item itemvalue="Application.homework8.figure.Main" />
+         <item itemvalue="Application.homework8.clinic.Main" />
+         <item itemvalue="Application.Operators" />
+       </list>
+@@ -191,7 +157,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1684934251832</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="homework 8.1 and 8.2">
++      <created>1686591548022</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1686591548022</updated>
++    </task>
++    <task id="LOCAL-00006" summary="homework 8.1 and 8.2">
++      <created>1686591563986</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1686591563986</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -210,6 +190,7 @@
+     <MESSAGE value="Bug fix lesson 3 task 2" />
+     <MESSAGE value="Using Control Structures" />
+     <MESSAGE value="Using cycles" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Using cycles" />
++    <MESSAGE value="homework 8.1 and 8.2" />
++    <option name="LAST_COMMIT_MESSAGE" value="homework 8.1 and 8.2" />
+   </component>
+ </project>
+\ No newline at end of file
