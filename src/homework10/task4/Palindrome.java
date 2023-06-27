@@ -7,16 +7,20 @@ public class Palindrome {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number: ");
+        System.out.print("Enter number: ");
         int number = Integer.parseInt(scanner.nextLine());
 
         String str = "mom skdf asdas ks falsfj dad";
         String[] arr = str.split(" ");
-        if (number > arr.length) {
-            throw new Exception("Incorrect data entered");
-        }
 
-        System.out.println(palindrome(arr[number - 1]));
+        try {
+            System.out.println(palindrome(arr[number - 1]));
+        }catch (ArrayIndexOutOfBoundsException e) {
+            if (number > arr.length) {
+                System.out.println(e.getMessage());
+                System.out.println("Error");
+            }
+        }
     }
 
     public static boolean palindrome(String str) {
