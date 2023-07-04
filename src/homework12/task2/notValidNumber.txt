@@ -1,0 +1,4 @@
+document1 - Does not start with "contract" or "docnum" and the length is not 15 but 9
+document3 - Does not start with "contract" or "docnum" and the length is not 15 but 9
+document5 - Does not start with "contract" or "docnum" and the length is not 15 but 9
+document6 - Does not start with "contract" or "docnum" and the length is not 15 but 9

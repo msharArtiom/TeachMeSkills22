@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/homework12/task1/FileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/task1/documentNumber.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/task2/FileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/task2/documentNumber.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/task2/notValidNumber.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/task2/validNumber.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework4/AdditionalTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework4/Cycles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/BodyMassIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Symbol.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Артем/IdeaProjects/TeachMeSkills22/src/homework12/task2",
+    "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Operators">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Артем\IdeaProjects\TeachMeSkills22\src\homework12\task2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Артем\IdeaProjects\TeachMeSkills22\src\homework12\task1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.homework12.task2.FileMain">
     <configuration name="AdditionalTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework4.AdditionalTask" />
       <module name="TeachMeSkills22" />
@@ -60,22 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cycles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Cycles" />
+    <configuration name="FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.FileMain" />
       <module name="TeachMeSkills22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework4.*" />
+          <option name="PATTERN" value="homework12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TeachMeSkills22" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Symbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.Symbol" />
+    <configuration name="homework12.task1.FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.task1.FileMain" />
       <module name="TeachMeSkills22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="homework12.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework12.task2.FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.task2.FileMain" />
+      <module name="TeachMeSkills22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework12.task2.FileMain" />
+        <item itemvalue="Application.homework12.task1.FileMain" />
+        <item itemvalue="Application.FileMain" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.AdditionalTask" />
-        <item itemvalue="Application.Cycles" />
-        <item itemvalue="Application.Symbol" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
