@@ -1,0 +1,7 @@
+docnum111145111 - Valid
+contract2212222 - Valid
+contract22222233 - length is not 15
+docnum111111343 - Valid
+contract222222222 - length is not 15
+docnum11111111155 - length is not 15
+contrnumber1111 - Does not start with docnum or contract
