@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/homework13/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="homework 13 task 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/BodyMassIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/Symbol.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684934251832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework 13 task 1">
+      <created>1690280933103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690280933103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework 13 task 1">
+      <created>1690280938845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690280938845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,52 +183,11 @@
     <MESSAGE value="Bug fix lesson 3 task 2" />
     <MESSAGE value="Using Control Structures" />
     <MESSAGE value="Using cycles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using cycles" />
+    <MESSAGE value="homework 13 task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 13 task 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework13/MyMain.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>
