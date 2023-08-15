@@ -1,0 +1,188 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"commit\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Application.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Calculator.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/ConsoleReader.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/ConsoleWriter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/FileOperationStorage.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/History.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/InMemoryOperationStorage.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Operation.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/OperationService.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Reader.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Writer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/homework4/Operators.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/lesson3/BodyMassIndex.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/lesson3/Human.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/lesson3/Symbol.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"AdditionalTask\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.AdditionalTask\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Cycles\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.Cycles\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Operators\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.Operators\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Symbol\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.Symbol\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.Symbol\" />\r\n        <item itemvalue=\"Application.Operators\" />\r\n        <item itemvalue=\"Application.Cycles\" />\r\n        <item itemvalue=\"Application.AdditionalTask\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Bug fix lesson 3 task 2\">\r\n      <created>1684856315153</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684856315153</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Using Control Structures\">\r\n      <created>1684930840636</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684930840637</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Using cycles\">\r\n      <created>1684934251832</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684934251832</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <MESSAGE value=\"Bug fix lesson 3 task 2\" />\r\n    <MESSAGE value=\"Using Control Structures\" />\r\n    <MESSAGE value=\"Using cycles\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Using cycles\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,27 +5,22 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="commit">
+-      <change afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/ConsoleReader.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/ConsoleWriter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/FileOperationStorage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/History.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/InMemoryOperationStorage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Operation.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/OperationService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Reader.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Writer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_08_2023_19_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_08_2023_19_44__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_17_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_17_36__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/lesson3/BodyMassIndex.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/lesson3/Human.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/lesson3/Symbol.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/FileOperationStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperationStorage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperationService.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -35,8 +30,6 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Enum" />
+-        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -49,6 +42,12 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 5
++}</component>
+   <component name="ProjectId" id="2Ptbun7kLRohRSK1czroaqM1OZJ" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -59,8 +58,10 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;calculator&quot;,
+     &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,
+     &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+   }
+@@ -128,10 +129,10 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Symbol" />
+         <item itemvalue="Application.Operators" />
++        <item itemvalue="Application.AdditionalTask" />
+         <item itemvalue="Application.Cycles" />
+-        <item itemvalue="Application.AdditionalTask" />
++        <item itemvalue="Application.Symbol" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/FileOperationStorage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.File;\r\nimport java.util.List;\r\n\r\npublic class FileOperationStorage implements History {\r\n\r\n    File path = new File(\"history.txt\");\r\n    @Override\r\n    public void save(Operation operation) {\r\n\r\n    }\r\n\r\n    @Override\r\n    public List<Operation> findAll() {\r\n        return null;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/FileOperationStorage.java b/src/FileOperationStorage.java
+--- a/src/FileOperationStorage.java	
++++ b/src/FileOperationStorage.java	
+@@ -1,13 +1,22 @@
++import java.io.BufferedWriter;
+ import java.io.File;
++import java.io.FileNotFoundException;
++import java.io.FilterWriter;
+ import java.util.List;
+ 
+ public class FileOperationStorage implements History {
+ 
+-    File path = new File("history.txt");
+     @Override
+     public void save(Operation operation) {
+ 
+-    }
++        try() {
++            FilterWriter writer = new FilterWriter("sds.tst", true) {
++            };
++
++        }catch (FileNotFoundException e) {
++            e.getStackTrace();
++        }
++   }
+ 
+     @Override
+     public List<Operation> findAll() {
+Index: src/Application.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Application {\r\n\r\n    private final ConsoleWriter consoleWriter = new ConsoleWriter();\r\n    private final ConsoleReader consoleReader = new ConsoleReader();\r\n    private final OperationService operationService = new OperationService();\r\n\r\n    public void start(){\r\n\r\n        while (true){\r\n            consoleWriter.write(\"Enter first number \");\r\n            double num1 = consoleReader.readNumber();\r\n            consoleWriter.write(\"Enter second number \");\r\n            double num2 = consoleReader.readNumber();\r\n            consoleWriter.write(\"Choose type: sum, sub, mul, div\");\r\n            String type = consoleReader.readType();\r\n            Operation operation = new Operation(num1, num2, type);\r\n            Operation result = operationService.calculate(operation);\r\n            consoleWriter.write(\"Result = \" + result.getResult());\r\n        }\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Application.java b/src/Application.java
+--- a/src/Application.java	
++++ b/src/Application.java	
+@@ -1,3 +1,5 @@
++import java.util.List;
++
+ public class Application {
+ 
+     private final ConsoleWriter consoleWriter = new ConsoleWriter();
+@@ -16,6 +18,11 @@
+             Operation operation = new Operation(num1, num2, type);
+             Operation result = operationService.calculate(operation);
+             consoleWriter.write("Result = " + result.getResult());
++
++            List<String> history = operationService.getHistory();
++            for (String s: history) {
++                System.out.printf(s);
++            }
+         }
+     }
+ }
+Index: src/OperationService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class OperationService {\r\n\r\n    private final History history = new InMemoryOperationStorage();\r\n\r\n    public Operation calculate(Operation operation) {\r\n       switch (operation.getType()){\r\n           case \"sum\" -> {\r\n               operation.setResult(operation.getNum1() + operation.getNum2());\r\n               history.save(operation);\r\n           }\r\n           case \"sub\" -> {\r\n               operation.setResult(operation.getNum1() - operation.getNum2());\r\n               history.save(operation);\r\n           }\r\n           case \"mul\" -> {\r\n               operation.setResult(operation.getNum1() * operation.getNum2());\r\n               history.save(operation);\r\n           }\r\n           case \"div\" -> {\r\n               operation.setResult(operation.getNum1() / operation.getNum2());\r\n               history.save(operation);\r\n           }\r\n       }\r\n        return operation;\r\n    }\r\n\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/OperationService.java b/src/OperationService.java
+--- a/src/OperationService.java	
++++ b/src/OperationService.java	
+@@ -1,3 +1,6 @@
++import java.util.ArrayList;
++import java.util.List;
++
+ public class OperationService {
+ 
+     private final History history = new InMemoryOperationStorage();
+@@ -24,5 +27,13 @@
+         return operation;
+     }
+ 
+-
++    public List<String> getHistory() {
++        List<Operation> all = history.findAll();
++        List<String> result = new ArrayList<>();
++        for (Operation operation: all) {
++            result.add("Result --> " + operation.getNum1() + " " + operation.getType() + " " + operation.getNum2() +
++                    " = " + operation.getResult() + "\n");
++        }
++        return result;
++    }
+ }
