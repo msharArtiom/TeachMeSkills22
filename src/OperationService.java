@@ -1,3 +1,4 @@
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,7 +6,7 @@ public class OperationService {
 
     private final History history = new FileOperationStorage();
 
-    public Operation calculate(Operation operation) {
+    public Operation calculate(Operation operation) throws SQLException {
         switch (operation.getType()) {
             case "sum" -> {
                 operation.setResult(operation.getNum1() + operation.getNum2());

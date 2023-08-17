@@ -1,3 +1,5 @@
+import java.sql.SQLException;
+
 public class Application {
 
     private final ConsoleWriter consoleWriter = new ConsoleWriter();
@@ -14,7 +16,12 @@ public class Application {
             consoleWriter.write("Choose type: sum, sub, mul, div");
             String type = consoleReader.readType();
             Operation operation = new Operation(num1, num2, type);
-            Operation result = operationService.calculate(operation);
+            Operation result = null;
+            try {
+                result = operationService.calculate(operation);
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
             consoleWriter.write("Result = " + result.getResult());
         }
     }
