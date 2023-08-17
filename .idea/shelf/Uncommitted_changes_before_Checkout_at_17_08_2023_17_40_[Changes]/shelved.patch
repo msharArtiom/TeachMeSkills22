@@ -1,0 +1,905 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//Welcome to Java\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n        // Integrated output class\r\n        System.out.println(\"Welcome to Java Profession Lesson.\"); // ln -> next line\r\n        // print\r\n        System.out.print(\"Welcome to Java Profession Lesson with print\"); // выводит сообщение и не переходит на следующую строку\r\n\r\n        // print\r\n        System.out.print(\"Welcome to Java.\");\r\n        System.out.print(\"This is the next line...\");\r\n\r\n        // println vs. print\r\n        System.out.println(); // может быть пустым, передает пустую строку\r\n        //System.out.print(); // error - ничего не передает\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ b/src/Main.java	(date 1692118752617)
+@@ -2,17 +2,7 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
+-        // Integrated output class
+-        System.out.println("Welcome to Java Profession Lesson."); // ln -> next line
+-        // print
+-        System.out.print("Welcome to Java Profession Lesson with print"); // выводит сообщение и не переходит на следующую строку
+ 
+-        // print
+-        System.out.print("Welcome to Java.");
+-        System.out.print("This is the next line...");
+ 
+-        // println vs. print
+-        System.out.println(); // может быть пустым, передает пустую строку
+-        //System.out.print(); // error - ничего не передает
+     }
+ }
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]" date="1684494279073" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 19.05.2023 14:04 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: src/lesson3/Human.java
+===================================================================
+diff --git a/src/lesson3/Human.java b/src/lesson3/Human.java
+deleted file mode 100644
+--- a/src/lesson3/Human.java	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,35 +0,0 @@
+-package lesson3;
+-
+-import java.util.Scanner;
+-
+-class Human {
+-    public static void main(String[] args) {
+-
+-        getDataHuman();
+-    }
+-    public static void getDataHuman() {
+-
+-        Scanner scanner = new Scanner(System.in);
+-
+-        System.out.print("Enter your name: ");
+-        String name = scanner.nextLine();
+-
+-        System.out.print("Enter your surname: ");
+-        String surname = scanner.nextLine();
+-
+-        System.out.print("Enter your age: ");
+-        int age = scanner.nextInt();
+-
+-        System.out.print("Enter your height: ");
+-        double height = scanner.nextDouble();
+-
+-        System.out.print("Enter your weight: ");
+-        double weight = scanner.nextDouble();
+-
+-        System.out.println("Name: " + name + "\n"
+-                + "Surname: " + surname + "\n"
+-                + "Age: " + age + "\n"
+-                + "Height: " + height + "\n"
+-                + "Weight: " + weight + "\n");
+-    }
+-}
+Index: src/homework4/Operators.java
+===================================================================
+diff --git a/src/homework4/Operators.java b/src/homework4/Operators.java
+deleted file mode 100644
+--- a/src/homework4/Operators.java	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,200 +0,0 @@
+-package homework4;
+-
+-import java.util.Scanner;
+-
+-public class Operators {
+-    public static void main(String[] args) {
+-        //Task 1
+-        System.out.print("Enter a month: ");
+-        System.out.println(getSeason(scanner().nextInt()));
+-        //Task 2
+-        System.out.print("Enter a month: ");
+-        getSeasonWithIf(scanner().nextInt());
+-        //Task 3
+-        System.out.print("Enter number : ");
+-        checkNumber(scanner().nextInt());
+-        //Task 4
+-        System.out.print("Enter temperature: ");
+-        getTemperature(scanner().nextInt());
+-        //Task 5
+-        System.out.print("Enter color number: ");
+-        System.out.println(getColor(scanner().nextInt()));
+-        //Task 1
+-        getNotEvenNumber();
+-        System.out.println();
+-        //Task 2
+-        getNumberDescending();
+-        System.out.println();
+-        //Task 3
+-        System.out.print("Enter your number: ");
+-        System.out.println("The sum of the numbers is " + getSumOfNumbers(scanner().nextInt()));
+-        System.out.println();
+-        //Task 4
+-        getSubsequence();
+-        System.out.println();
+-        //Task 5
+-        System.out.print("Enter the number of first numbers in the sequence: ");
+-        getDescendingSequence(scanner().nextInt());
+-        System.out.println();
+-        //Task 6
+-        getSquareNumber();
+-        System.out.println();
+-        // Task **
+-        System.out.print("This is Fibonacci number : ");
+-        getFibonacciNumber();
+-        System.out.println("Enter your deposit and number of months: ");
+-        getSumContribution(scanner().nextFloat(), scanner().nextInt());
+-        System.out.println();
+-        getMultiplicationTable();
+-    }
+-
+-    public static String getSeason(int month) {
+-
+-        switch (month) {
+-            case 12, 1, 2:
+-                return "This is Winter";
+-            case 3, 4, 5:
+-                return "This is Spring ";
+-            case 6, 7, 8:
+-                return "This is Summer ";
+-            case 9, 10, 11:
+-                return "This is Autumn";
+-            default:
+-                return "There are 12 months in a year, not " + month;
+-        }
+-    }
+-
+-    public static void getSeasonWithIf(int month) {
+-
+-        if (month == 12 || month == 1 || month == 2)
+-            System.out.println("This is Winter");
+-        else if ((month == 3 || month == 4 || month == 5))
+-            System.out.println("This is Spring");
+-        else if ((month == 6 || month == 7 || month == 8))
+-            System.out.println("This is Summer");
+-        else if ((month == 9 || month == 10 || month == 11))
+-            System.out.println("This is Autumn");
+-        else System.out.println("There are 12 months in a year, not " + month);
+-    }
+-
+-    public static void checkNumber(int number) {
+-        if (number % 2 == 0)
+-            System.out.println(number + " - it is even number ");
+-        else System.out.println(number + " - it is not even number ");
+-    }
+-
+-    public static void getTemperature(int temperature) {
+-
+-        if (temperature > -5)
+-            System.out.println("Warm");
+-        else if (temperature > -20)
+-            System.out.println("Normally");
+-        else System.out.println("coldly");
+-    }
+-
+-    public static String getColor(int numberColor) {
+-
+-        switch (numberColor) {
+-            case 1:
+-                return "This is red ";
+-            case 2:
+-                return "This is orange ";
+-            case 3:
+-                return "This is yellow";
+-            case 4:
+-                return "This is green ";
+-            case 5:
+-                return "This is blue ";
+-            case 6:
+-                return "This is indigo";
+-            case 7:
+-                return "This is violet";
+-            default:
+-                return "The rainbow has 7 colors, not " + numberColor;
+-        }
+-    }
+-    public static void getNotEvenNumber() {
+-
+-        for (int i = 1; i < 100; i++) {
+-            if (i % 2 != 0)
+-                System.out.print(i + " ");
+-        }
+-    }
+-
+-    public static void getNumberDescending() {
+-
+-        for (int i = 5; i > 0; i--) {
+-            System.out.print(i + " ");
+-        }
+-    }
+-
+-    public static int getSumOfNumbers(int number) {
+-        int sum = 0;
+-        for (int i = 0; i <= number; i++) {
+-            sum = sum + i;
+-        }
+-        return sum;
+-    }
+-
+-    public static void getSubsequence() {
+-        int i = 7;
+-        while (i < 100) {
+-            System.out.print(i + " ");
+-            i += 7;
+-        }
+-    }
+-
+-    public static void getDescendingSequence(int number) {
+-        int sequence = 0;
+-        for (int i = 0; i < number; i++) {
+-            System.out.print(sequence + " ");
+-            sequence -= 5;
+-        }
+-    }
+-
+-    public static void getSquareNumber() {
+-        for (int i = 10; i <= 20; i++) {
+-            System.out.print((int) Math.pow(i, 2) + " ");
+-        }
+-    }
+-
+-    public static void getFibonacciNumber() {
+-
+-        int number1 = 0;
+-        int number2 = 0;
+-
+-        for (int i = 2; i <= 11; i++) {
+-            if (number1 == 0) {
+-                System.out.print(number1 + " ");
+-                number2 += 1;
+-            } else if (number2 == 1) System.out.print(number2 + " ");
+-
+-            int number3 = number1 + number2;
+-            System.out.print(number3 + " ");
+-            number1 = number2;
+-            number2 = number3;
+-        }
+-    }
+-
+-    public static void getSumContribution(float contribution, int month) {
+-
+-        float count = contribution;
+-        for (int i = 0; i < month; i++) {
+-            count += ((contribution * 7) / 100);
+-        }
+-        System.out.println(count);
+-    }
+-
+-    public static void getMultiplicationTable() {
+-
+-        for (int i = 1; i < 11; i++) {
+-            for (int j = 0; j < 11; j++) {
+-                System.out.println(i + " * " + j + " = " + (i * j));
+-            }
+-            System.out.println();
+-        }
+-    }
+-    public static Scanner scanner() {
+-        return new Scanner(System.in);
+-    }
+-}
+Index: src/lesson3/Symbol.java
+===================================================================
+diff --git a/src/lesson3/Symbol.java b/src/lesson3/Symbol.java
+deleted file mode 100644
+--- a/src/lesson3/Symbol.java	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,18 +0,0 @@
+-package lesson3;
+-
+-import java.util.Scanner;
+-
+-class Symbol {
+-    public static void main(String[] args) {
+-
+-        getSymbol();
+-    }
+-
+-    public static void getSymbol() {
+-
+-        Scanner scanner = new Scanner(System.in);
+-        System.out.print("Enter your symbol: ");
+-        char symbol = scanner.next().charAt(0);
+-        System.out.println(symbol + " - " + (int) symbol);
+-    }
+-}
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]" date="1684446391425" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 19.05.2023 0:46 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]" date="1684853736576" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 23.05.2023 17:55 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,131 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"first homework\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"D:/TeachMeSkills22/TeachMeSkills22/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first homework\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision c9ed7ac305e2ff01321b0dc708747803c63e40f4)
+-+++ b/.idea/workspace.xml	(date 1684508929243)
+-@@ -1,5 +1,8 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-+  <component name="AutoImportSettings">
+-+    <option name="autoReloadType" value="SELECTIVE" />
+-+  </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="first homework" />
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -8,6 +11,11 @@
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+-   </component>
+-   <component name="Git.Settings">
+-+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-+      <map>
+-+        <entry key="$PROJECT_DIR$" value="master" />
+-+      </map>
+-+    </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-   <component name="ProjectId" id="2Ptbun7kLRohRSK1czroaqM1OZJ" />
+-@@ -16,12 +24,68 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+-   }
+--}]]></component>
+-+}</component>
+-+  <component name="RunManager">
+-+    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="lesson3.BodyMassIndex" />
+-+      <module name="TeachMeSkills22" />
+-+      <extension name="coverage">
+-+        <pattern>
+-+          <option name="PATTERN" value="lesson3.*" />
+-+          <option name="ENABLED" value="true" />
+-+        </pattern>
+-+      </extension>
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="lesson3.Human" />
+-+      <module name="TeachMeSkills22" />
+-+      <extension name="coverage">
+-+        <pattern>
+-+          <option name="PATTERN" value="lesson3.*" />
+-+          <option name="ENABLED" value="true" />
+-+        </pattern>
+-+      </extension>
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="Main" />
+-+      <module name="TeachMeSkills22" />
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="Symbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="lesson3.Symbol" />
+-+      <module name="TeachMeSkills22" />
+-+      <extension name="coverage">
+-+        <pattern>
+-+          <option name="PATTERN" value="lesson3.*" />
+-+          <option name="ENABLED" value="true" />
+-+        </pattern>
+-+      </extension>
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <recent_temporary>
+-+      <list>
+-+        <item itemvalue="Application.Symbol" />
+-+        <item itemvalue="Application.Main" />
+-+        <item itemvalue="Application.Human" />
+-+        <item itemvalue="Application.BodyMassIndex" />
+-+      </list>
+-+    </recent_temporary>
+-+  </component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+-@@ -38,7 +102,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1684279932473</updated>
+-     </task>
+--    <option name="localTasksCounter" value="2" />
+-+    <task id="LOCAL-00002" summary="commit">
+-+      <created>1684508866320</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1684508866320</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="3" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -54,6 +125,7 @@
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="first homework" />
+--    <option name="LAST_COMMIT_MESSAGE" value="first homework" />
+-+    <MESSAGE value="commit" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]" date="1684509034156" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19.05.2023 18:10 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,85 +0,0 @@
+-Index: src/Main.java
+-===================================================================
+-diff --git a/src/Main.java b/src/Main.java
+-deleted file mode 100644
+---- a/src/Main.java	(revision 453947bb6a0d91f0e02191da55f174f5c028c592)
+-+++ /dev/null	(revision 453947bb6a0d91f0e02191da55f174f5c028c592)
+-@@ -1,18 +0,0 @@
+--//Welcome to Java
+--public class Main {
+--    public static void main(String[] args) {
+--
+--        // Integrated output class
+--        System.out.println("Welcome to Java Profession Lesson."); // ln -> next line
+--        // print
+--        System.out.print("Welcome to Java Profession Lesson with print"); // выводит сообщение и не переходит на следующую строку
+--
+--        // print
+--        System.out.print("Welcome to Java.");
+--        System.out.print("This is the next line...");
+--
+--        // println vs. print
+--        System.out.println(); // может быть пустым, передает пустую строку
+--        //System.out.print(); // error - ничего не передает
+--    }
+--}
+-\ No newline at end of file
+-Index: TeachMeSkills22.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/TeachMeSkills22.iml b/TeachMeSkills22.iml
+---- a/TeachMeSkills22.iml	(revision 453947bb6a0d91f0e02191da55f174f5c028c592)
+-+++ b/TeachMeSkills22.iml	(date 1684446368013)
+-@@ -3,6 +3,7 @@
+-   <component name="NewModuleRootManager" inherit-compiler-output="true">
+-     <exclude-output />
+-     <content url="file://$MODULE_DIR$">
+-+      <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
+-       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-     </content>
+-     <orderEntry type="inheritedJdk" />
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"first homework\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"D:/TeachMeSkills22/TeachMeSkills22/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first homework\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 453947bb6a0d91f0e02191da55f174f5c028c592)
+-+++ b/.idea/workspace.xml	(date 1684446311311)
+-@@ -1,7 +1,11 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="ChangeListManager">
+--    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="first homework" />
+-+    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="first homework">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/TeachMeSkills22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeachMeSkills22.iml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -16,12 +20,12 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,37 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"first homework\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"D:/TeachMeSkills22/TeachMeSkills22/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first homework\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 453947bb6a0d91f0e02191da55f174f5c028c592)
+-+++ b/.idea/workspace.xml	(date 1684494266544)
+-@@ -1,5 +1,8 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-+  <component name="AutoImportSettings">
+-+    <option name="autoReloadType" value="SELECTIVE" />
+-+  </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="first homework" />
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -16,12 +19,12 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "onboarding.tips.debug.path": "D:/TeachMeSkills22/TeachMeSkills22/src/Main.java"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+Index: src/lesson3/BodyMassIndex.java
+===================================================================
+diff --git a/src/lesson3/BodyMassIndex.java b/src/lesson3/BodyMassIndex.java
+deleted file mode 100644
+--- a/src/lesson3/BodyMassIndex.java	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,23 +0,0 @@
+-package lesson3;
+-
+-import java.util.Scanner;
+-
+-class BodyMassIndex {
+-    public static void main(String[] args) {
+-
+-        getBodyMassIndex();
+-    }
+-
+-    public static void  getBodyMassIndex(){
+-
+-        Scanner scanner = new Scanner(System.in);
+-        System.out.print("Enter your height: ");
+-        int height = scanner.nextInt();
+-        System.out.print("Enter your weight: ");
+-        double weight = scanner.nextDouble();
+-                                                            //BMI = kg/m2
+-        double bmi = weight/((Math.pow(height * 0.01, 2))); // Math.pow - метод возведения в степень, в качестве степень принимает второй аргумент
+-                                                            // (height * 0.01) перевод с сантиметров в метры
+-        System.out.println("Your BMI - " + bmi);
+-    }
+-}
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ /dev/null	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
+@@ -1,109 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"first homework\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/lesson3/BodyMassIndex.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lesson3/Human.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lesson3/Symbol.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.BodyMassIndex\">\r\n    <configuration name=\"BodyMassIndex\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.BodyMassIndex\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Human\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.Human\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Symbol\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.Symbol\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.BodyMassIndex\" />\r\n        <item itemvalue=\"Application.Symbol\" />\r\n        <item itemvalue=\"Application.Human\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first homework\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 165094bbc1fea432095cb42931f93804a0a77863)
+-+++ b/.idea/workspace.xml	(date 1684516873152)
+-@@ -4,31 +4,18 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="first homework">
+--      <change afterPath="$PROJECT_DIR$/src/lesson3/BodyMassIndex.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lesson3/Human.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lesson3/Symbol.java" afterDir="false" />
+-+    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="commit">
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_18_02__Changes_.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+--  </component>
+--  <component name="FileTemplateManagerImpl">
+--    <option name="RECENT_TEMPLATES">
+--      <list>
+--        <option value="Class" />
+--      </list>
+--    </option>
+-   </component>
+-   <component name="Git.Settings">
+--    <option name="RECENT_BRANCH_BY_REPOSITORY">
+--      <map>
+--        <entry key="$PROJECT_DIR$" value="master" />
+--      </map>
+--    </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-   <component name="ProjectId" id="2Ptbun7kLRohRSK1czroaqM1OZJ" />
+-@@ -43,62 +30,6 @@
+-     &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
+-   }
+- }</component>
+--  <component name="RunManager" selected="Application.BodyMassIndex">
+--    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+--      <option name="MAIN_CLASS_NAME" value="lesson3.BodyMassIndex" />
+--      <module name="TeachMeSkills22" />
+--      <extension name="coverage">
+--        <pattern>
+--          <option name="PATTERN" value="lesson3.*" />
+--          <option name="ENABLED" value="true" />
+--        </pattern>
+--      </extension>
+--      <method v="2">
+--        <option name="Make" enabled="true" />
+--      </method>
+--    </configuration>
+--    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+--      <option name="MAIN_CLASS_NAME" value="lesson3.Human" />
+--      <module name="TeachMeSkills22" />
+--      <extension name="coverage">
+--        <pattern>
+--          <option name="PATTERN" value="lesson3.*" />
+--          <option name="ENABLED" value="true" />
+--        </pattern>
+--      </extension>
+--      <method v="2">
+--        <option name="Make" enabled="true" />
+--      </method>
+--    </configuration>
+--    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+--      <option name="MAIN_CLASS_NAME" value="Main" />
+--      <module name="TeachMeSkills22" />
+--      <method v="2">
+--        <option name="Make" enabled="true" />
+--      </method>
+--    </configuration>
+--    <configuration name="Symbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+--      <option name="MAIN_CLASS_NAME" value="lesson3.Symbol" />
+--      <module name="TeachMeSkills22" />
+--      <extension name="coverage">
+--        <pattern>
+--          <option name="PATTERN" value="lesson3.*" />
+--          <option name="ENABLED" value="true" />
+--        </pattern>
+--      </extension>
+--      <method v="2">
+--        <option name="Make" enabled="true" />
+--      </method>
+--    </configuration>
+--    <recent_temporary>
+--      <list>
+--        <item itemvalue="Application.BodyMassIndex" />
+--        <item itemvalue="Application.Symbol" />
+--        <item itemvalue="Application.Human" />
+--        <item itemvalue="Application.Main" />
+--      </list>
+--    </recent_temporary>
+--  </component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/homework4/AdditionalTask.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/homework4/Cycles.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/homework4/Operators.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/homework4/Operators.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptbun7kLRohRSK1czroaqM1OZJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.Operators\">\r\n    <configuration name=\"AdditionalTask\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.AdditionalTask\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Cycles\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.Cycles\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Operators\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"homework4.Operators\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"homework4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Symbol\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.Symbol\" />\r\n      <module name=\"TeachMeSkills22\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Operators\" />\r\n        <item itemvalue=\"Application.AdditionalTask\" />\r\n        <item itemvalue=\"Application.Cycles\" />\r\n        <item itemvalue=\"Application.Symbol\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7e46cc6-19f5-4951-bff3-7368d23f734b\" name=\"Changes\" comment=\"\" />\r\n      <created>1684279551540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684279551540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first homework\">\r\n      <created>1684279932473</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684279932473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Bug fix lesson 3 task 2\">\r\n      <created>1684856315153</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684856315153</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Using Control Structures\">\r\n      <created>1684930840636</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684930840637</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Using cycles\">\r\n      <created>1684934251832</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684934251832</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first homework\" />\r\n    <MESSAGE value=\"Bug fix lesson 3 task 2\" />\r\n    <MESSAGE value=\"Using Control Structures\" />\r\n    <MESSAGE value=\"Using cycles\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Using cycles\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ b/.idea/workspace.xml	(date 1692283239047)
+@@ -4,11 +4,22 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="commit">
++    <list default="true" id="a7e46cc6-19f5-4951-bff3-7368d23f734b" name="Changes" comment="update">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_0_46__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2023_14_04__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_05_2023_17_55__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2023_18_10__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework4/AdditionalTask.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework4/Cycles.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/Operators.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/homework4/Operators.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/lesson3/BodyMassIndex.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/lesson3/Human.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/lesson3/Symbol.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,6 +41,9 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 3
++}</component>
+   <component name="ProjectId" id="2Ptbun7kLRohRSK1czroaqM1OZJ" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -40,10 +54,21 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/javaGuruThursday&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;lesson19&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/study&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TeachMeSkills22/TeachMeSkills22/src/Main.java&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+ }</component>
+   <component name="RunManager" selected="Application.Operators">
+@@ -124,6 +149,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1684279551540</updated>
++      <workItem from="1692197504283" duration="1247000" />
+     </task>
+     <task id="LOCAL-00001" summary="first homework">
+       <created>1684279932473</created>
+@@ -153,9 +179,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1684934251832</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="update">
++      <option name="closed" value="true" />
++      <created>1692115270829</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1692115270829</updated>
++    </task>
++    <task id="LOCAL-00006" summary="update">
++      <option name="closed" value="true" />
++      <created>1692115275706</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1692115275706</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -172,6 +217,7 @@
+     <MESSAGE value="Bug fix lesson 3 task 2" />
+     <MESSAGE value="Using Control Structures" />
+     <MESSAGE value="Using cycles" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Using cycles" />
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 331f4a9b8294b04c7fe59719476a9ab9fa8adebb)
++++ b/.idea/misc.xml	(date 1692197502042)
+@@ -1,4 +1,3 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
