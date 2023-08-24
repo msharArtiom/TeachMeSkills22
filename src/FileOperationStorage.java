@@ -2,10 +2,10 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileOperationStorage implements History {
+public class FileOperationStorage /* implements History*/ {
 
 
-    private final List<Operation> operations = new ArrayList<>();
+   /* private final List<Operation> operations = new ArrayList<>();
     @Override
     public void save(Operation operation) {
 
@@ -27,5 +27,5 @@ public class FileOperationStorage implements History {
     @Override
     public List<Operation> findAll() {
        return (List<Operation>) new UnsupportedOperationException();
-    }
+    }*/
 }

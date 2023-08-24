@@ -1,10 +1,16 @@
+package service;
+
+import entity.Operation;
+import repository.History;
+import repository.JDBCHistory;
+import repository.Session;
+
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class OperationService {
 
-    private final History history = new FileOperationStorage();
+    private final History history = new JDBCHistory();
 
     public Operation calculate(Operation operation) throws SQLException {
         switch (operation.getType()) {
@@ -24,21 +30,14 @@ public class OperationService {
                 operation.setResult(operation.getNum1() / operation.getNum2());
                 history.save(operation);
             }
+
         }
         return operation;
     }
 
-    public List<String> getHistory() {
+    public List<Operation> getHistory(Session session) {
 
-        List<Operation> all = history.findAll();
-        List<String> result = new ArrayList<>();
+        return history.findAll(session.getUser());
 
-        for (Operation operation : all) {
-            result.add("Result --> " + operation.getNum1() + " "
-                    + operation.getType() + " "
-                    + operation.getNum2() + " = "
-                    + operation.getResult());
-        }
-        return result;
     }
 }
